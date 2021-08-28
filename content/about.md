@@ -6,4 +6,6 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-A simple static website as a place to distribute **programming concept** materials and assignments.
+**Ciao** ✌
+
+This website is managed by two teaching assistants, **[Sammi Aldhi Yanto](https://semmidev.github.io)** & **[M.Fachren](#)**. We will distribute **assignments** regarding **programming concepts** on this website, stay tuned ya🧐
