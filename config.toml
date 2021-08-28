@@ -119,7 +119,7 @@ weight = 3
 url = "assignments/"
 
 [[languages.en.menu.main]]
-name = "Contact us"
+name = "Contact Us"
 weight = 5
 url = "contact/"
 

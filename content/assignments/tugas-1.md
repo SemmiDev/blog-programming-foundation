@@ -34,10 +34,15 @@ public class HelloWorld {
 ## Output 😍
 Hasil yang diharapkan.
 ```text
-- Hello world!
-- Tugas pemrograman 1.
+- Tugas pemrograman.
+- Hello world.
 - Mencetak beberapa baris kalimat ke dalam console.
+- Lorem ipsum dolor sit amet.
 ```
+
+## Demo 🎬
+
+![a](/assignments/assets/demo-1.gif)
 
 {{< notice info >}}
 Output program kamu harus sama persis yaaa dengan sample output diatas. Kalau tidak nilai kamu untuk tugas ini otomatis 0 😏
