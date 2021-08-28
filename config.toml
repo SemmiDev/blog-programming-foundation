@@ -10,7 +10,7 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "yourdiscussshortname"
 
 [params]
 author = "Programming Concept"
