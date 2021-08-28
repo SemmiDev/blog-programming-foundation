@@ -8,4 +8,4 @@ author = "Hugo Authors"
 
 **Ciao** ✌
 
-This website is managed by two teaching assistants, **[Sammi Aldhi Yanto](https://semmidev.github.io)** & **[M.Fachren](#)**. We will distribute **assignments** regarding **programming concepts** on this website, stay tuned ya🧐
+This website is managed by two teaching assistants, **[Sammi Aldhi Yanto](https://semmidev.github.io)** & **[M.Fachren](#)**. We will distribute **[materials]()** & **[assignments]()** regarding **programming concepts** on this website, stay tuned ya🧐

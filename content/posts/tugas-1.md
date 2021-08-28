@@ -42,7 +42,7 @@ Hasil yang diharapkan.
 
 ## Demo 🎬
 
-![a](/assignments/assets/demo-1.gif)
+![a](/posts/assets/demo-1.gif)
 
 {{< notice info >}}
 Output program kamu harus sama persis yaaa dengan sample output diatas. Kalau tidak nilai kamu untuk tugas ini otomatis 0 😏 oiiyaa, kalo udah lewat Deadline, kamu tidak akan bisa lagi submit tugas / file programnya di CodePost 😸
