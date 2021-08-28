@@ -10,7 +10,7 @@ tags = [
 +++
 
 {{< notice warning >}}
-**Deadine** ⏳ **30 Agustus 2021**
+**Deadine** ⏳ **30 Agustus 2021 23:00**
 {{< /notice >}}
 
 
@@ -45,5 +45,5 @@ Hasil yang diharapkan.
 ![a](/assignments/assets/demo-1.gif)
 
 {{< notice info >}}
-Output program kamu harus sama persis yaaa dengan sample output diatas. Kalau tidak nilai kamu untuk tugas ini otomatis 0 😏
+Output program kamu harus sama persis yaaa dengan sample output diatas. Kalau tidak nilai kamu untuk tugas ini otomatis 0 😏 lewat Deadline kamu tidak akan bisa lagi submit tugas / file programnya di CodePost 😸
 {{< /notice >}}
