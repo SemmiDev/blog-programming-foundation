@@ -1,6 +1,6 @@
 ignoreErrors = ["error-remote-getjson"]
 baseURL = "http://www.example.com"
-title = "programming concept"
+title = "🇮🇩 | programming concept"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -122,8 +122,3 @@ url = "assignments/"
 name = "Contact Us"
 weight = 5
 url = "contact/"
-
-[[languages.en.menu.main]]
-name = "🇮🇩"
-weight = 6
-url = "/"
