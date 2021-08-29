@@ -75,6 +75,10 @@ customJS = []
 # [params.googleTagManager]
 # id = "gid"
 
+[params]
+  commentoURL = "https://cdn.commento.io" # Replace if you use a custom domain
+
+
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'"]
