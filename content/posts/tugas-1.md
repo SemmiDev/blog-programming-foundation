@@ -13,11 +13,20 @@ tags = [
 **Deadine** ⏳ **Kamis, 16 September 2021 Pukul 23:00**
 {{< /notice >}}
 
+## Peraturan 
+*Nama file yang di submit di **Codepost** harus* **VariableTipeData.java**
+
+## Template Program
+```java
+public class VariableTipeData {
+    public static void main(String[] args) {
+        // tulis program disini
+    }
+}
+```
+
 ## Soal
 ![soal](/posts/assets/a.png "Soal" )
 
-## Peraturan 
-*Nama file yang di submit di Codepost harus* **VariableTipeData.java**
-
-## Hasil
+## Hasil / Output
 ![Hasil](/posts/assets/b.png "Hasil")
