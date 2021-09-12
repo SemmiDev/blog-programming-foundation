@@ -2,7 +2,7 @@
 author = "Hugo Authors"
 title = "Tugas 1 📝 Variable & Tipe Data"
 date = "2021-09-12"
-description = "A brief description of Hugo Shortcodes"
+description = "Tugas 1 📝 Variable & Tipe Data"
 tags = [
     "assignments",
     "java",
