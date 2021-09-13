@@ -14,7 +14,8 @@ tags = [
 {{< /notice >}}
 
 ## Peraturan 
-*Nama file yang di submit di **Codepost** harus* **VariableTipeData.java**
+*Nama file yang di submit di **Codepost** harus* **VariableTipeData.java** . 
+### 
 **Program harus memiliki satu/lebih dari operator dibawah ini**
 1. Operator Penjumlahan
 2. Operator Perkaian
