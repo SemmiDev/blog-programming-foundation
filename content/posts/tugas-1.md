@@ -14,9 +14,7 @@ tags = [
 {{< /notice >}}
 
 ## Peraturan 
-*Nama file yang di submit di **Codepost** harus* **VariableTipeData.java** . 
-### 
-**Program harus memiliki satu/lebih dari operator dibawah ini**
+*Nama file yang di submit di **Codepost** harus* **VariableTipeData.java** . **Program harus memiliki satu/lebih dari operator dibawah ini**
 1. Operator Penjumlahan
 2. Operator Perkaian
 
@@ -33,4 +31,6 @@ public class VariableTipeData {
 ![soal](/posts/assets/a.png "Soal" )
 
 ## Hasil / Output
-![Hasil](/posts/assets/b.png "Hasil")
+```text
+Total = 183948 detik
+```
