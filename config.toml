@@ -1,6 +1,6 @@
 ignoreErrors = ["error-remote-getjson"]
 baseURL = "https://programming-concept.netlify.app"
-title = "☕ programming foundation"
+title = "☕ ayo ngopi"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -13,7 +13,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "sam"
+author = "programming foundation"
 description = "programming foundation web"
 keywords = "blog,developer,programming,java"
 info = ["Happy ❤ Coding"]
