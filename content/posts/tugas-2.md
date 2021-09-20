@@ -37,7 +37,7 @@ Tulislah program untuk menentukan upah bulanan-nya jika **karyawan A** tersebut
 bekerja selama **26 hari** dan setiap harinya bekerja selama **9** jam.\
 Setelah upah bulanan didapat,
 kemudian si **karyawan A** mendapat tunjangan sebesar **25%** dari upah bulanan yang didapat itu.\
-Selanjutnya, tentukan karyawan mana yang memiliki **gaji terbesar**, jika total gaji **karyawan A** yang telah di dapat + bonus **VS** gaji **karyawan B** yang upah perbulan nya yaitu Rp.**700000**.\
+Selanjutnya, tentukan karyawan mana yang memiliki **gaji terbesar**, jika total gaji **karyawan A** yang telah di dapat + tunjangan **VS** gaji **karyawan B** yang upah perbulan nya yaitu Rp.**700000**.\
 *Untuk perbandingan kedua gaji karyawan ini gunakan* **ternary operator**
 
 ## Saran
