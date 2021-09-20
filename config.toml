@@ -1,6 +1,6 @@
 ignoreErrors = ["error-remote-getjson"]
 baseURL = "https://programming-concept.netlify.app"
-title = "☕ ayo ngopi"
+title = "☕ happy coding"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
