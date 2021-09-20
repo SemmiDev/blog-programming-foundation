@@ -10,7 +10,9 @@ tags = [
 +++
 
 {{< notice warning >}}
-**Deadine** ⏳ **Kamis, 23 September 2021 Pukul 23:00**
+**Deadine** ⏳ \
+**SI = Selasa, 21 September 2021 Pukul 23:59** \
+**MI = Kamis, 23 September 2021 Pukul 23:59**
 {{< /notice >}}
 
 ## Peraturan
