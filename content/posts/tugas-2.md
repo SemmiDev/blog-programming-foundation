@@ -29,7 +29,7 @@ public class Percabangan {
 
 ## Soal
 
-**Karyawan A** yang bekerja di **Gerai Uncle Muthu** digaji berdasarkan jumlah jam kerjanya selama satu bulan (**30 hari**). 
+**Karyawan A** yang bekerja di **Gerai Uncle Muthu** digaji berdasarkan jumlah jam kerjanya selama satu bulan. 
 Upah per jam-nya adalah Rp.**2000**\
 Jika jumlah jam kerja **karyawan A** lebih besar dari **200** jam, maka sisanya dianggap sebagai **upah lembur**.\
 Upah lembur per jam-nya adalah Rp.**4000**\
