@@ -93,6 +93,7 @@ Hasil = `23`
 - Gunakan **if** (conditional)
 - Gunakan variable **total** untuk menampung hasil penjumlahan 
 - Gunakan operasi **|| (or)** atau boleh juga tidak menggunakannya
+- Gunakan keyword **continue** jika dirasa perlu
 
 `gak tau operasi OR itu apa?` **[Googling](https://www.google.com)**
 {{< /notice >}}
@@ -136,6 +137,7 @@ Buatlah sebuah **matriks identitas** ber ordo `11 x 11` (11 baris 11 kolom). Kem
 - Contoh penggunaan **nested loop / loop bersarang** ada di **slide ppt**
 - Gunakan **if**
 - Contoh penggunaan **if** ada di **slide ppt** pertemuan minggu lalu
+- Gunakan keyword **continue** jika dirasa perlu
 
 `belum paham cara pake loop bersarang?` **[Googling](https://www.google.com)**
 {{< /notice >}}
