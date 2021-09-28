@@ -1,6 +1,6 @@
 ignoreErrors = ["error-remote-getjson"]
 baseURL = "https://programming-concept.netlify.app"
-title = "☕ happy coding"
+title = "❤ JAVA"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -16,14 +16,14 @@ enableEmoji = true
 author = "programming foundation"
 description = "programming foundation web"
 keywords = "blog,developer,programming,java"
-info = ["Happy ❤ Coding"]
+info = ["happy coding"]
 avatarURL = "images/logo.svg"
 # gravatar = "sammidev4@gmail.com"
 footerContent = "“First, solve the problem. Then, write the code”"
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = true
-hideCopyright = true
+hideCopyright = false
 since = 2021
 # Git Commit in Footer, uncomment the line below to enable it
 # commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -36,7 +36,7 @@ rtl = false
 # "light" (light background, dark foreground) (default)
 colorScheme = "light"
 # Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = false
+hideColorSchemeToggle = true
 # Series see also post count
 maxSeeAlsoItems = 5
 # Enable Twemoji

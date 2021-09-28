@@ -44,4 +44,4 @@ Selanjutnya, tentukan karyawan mana yang memiliki **gaji terbesar**. jika total 
 Gunakan tipe data **double** (supaya presisi)
 
 ## Hasil / Output
-![output](/posts/assets/jawaban-tugas-2.png "Output" )
+![output](/assets/jawaban-tugas-2.png "Output" )

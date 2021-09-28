@@ -26,7 +26,7 @@ public class VariableTipeData {
 ```
 
 ## Soal
-![soal](/posts/assets/a.png "Soal" )
+![soal](/assets/a.png "Soal" )
 
 ## Hasil / Output
-![output](/posts/assets/b.png "Output" )
+![output](/assets/b.png "Output" )
