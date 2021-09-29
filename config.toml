@@ -1,6 +1,6 @@
 ignoreErrors = ["error-remote-getjson"]
 baseURL = "https://programming-concept.netlify.app"
-title = "❤ JAVA"
+title = "❤ java"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -13,7 +13,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "programming foundation"
+author = "Programming Foundation"
 description = "programming foundation web"
 keywords = "blog,developer,programming,java"
 info = ["happy coding"]
@@ -34,7 +34,7 @@ rtl = false
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "light"
+colorScheme = "dark"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = true
 # Series see also post count
@@ -47,7 +47,7 @@ customCSS = []
 customSCSS = []
 # Custom JS
 customJS = []
-commentoURL = "https://cdn.commento.io"
+# commentoURL = "https://cdn.commento.io"
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
@@ -110,11 +110,6 @@ weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Posts"
+name = "Assignments"
 weight = 2
-url = "posts/"
-
-[[languages.en.menu.main]]
-name = "Contact"
-weight = 5
-url = "contact/"
+url = "assignments/"
