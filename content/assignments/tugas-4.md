@@ -32,9 +32,9 @@ Intinya, nama method bersifat **case sensitive** dan buatlah nama method yang se
 
 > Daftar Isi
 
-[Soal 1 (Sistem Login Sederhana)]()\
-[Soal 2 (Bermain dengan Pola Angka)]()\
-[Soal 3 (Bilangan Agak Prima)]()
+[Soal 1 (Sistem Login Sederhana)](https://programming-concept.netlify.app/assignments/tugas-4/#-sistem-login-sederhana)\
+[Soal 2 (Bermain dengan Pola Angka)](https://programming-concept.netlify.app/assignments/tugas-4/#-bermain-dengan-pola-angka)\
+[Soal 3 (Bilangan Agak Prima)](https://programming-concept.netlify.app/assignments/tugas-4/#-bilangan-agak-prima)
 
 ---
 
