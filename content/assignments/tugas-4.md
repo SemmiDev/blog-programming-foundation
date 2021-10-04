@@ -19,6 +19,7 @@ tags = [
 - Nama **file program** yang akan di submit di **Codepost** harus **Method.java**
 - Tidak disediakan **template program**, kalian harus baca dan analisa apa yang diminta/requirement dari soal
 - Inputan / **Test Cases** akan ditentukan oleh codepost, oleh karena itu kalian harus handle setiap data yang masuk ke method sesuai dengan requirement soal. agar semua test case nya sukses. 
+- **Total test** ada 10 buah, setiap test jika **passed** diberi poin **10**
 - Hati-hati dalam penamaan **method**\
 **Methoda** tidak sama dengan **methodA**, tidak sama juga dengan **MethodA**, ataupun **METHODA**\
 Intinya, nama method bersifat **case sensitive** dan buatlah nama method yang sesuai dengan apa yang di perintahkan soal
@@ -27,6 +28,12 @@ Intinya, nama method bersifat **case sensitive** dan buatlah nama method yang se
 {{< notice info >}}
 **Test Case** atau juga bisa disebut dengan **uji kasus** adalah suatu rancangan atau rangkaian mengenai tindakan yang dilakukan oleh user (dalam hal ini adalah abang) untuk melakukan verifikasi terhadap fitur atau fungsi tertentu dari program/method yang udah kalian bikin. Pembuatan test case bertujuan untuk memastikan bahwa sistem/method yang kalian bikin dapat dijalankan dengan baik sesuai dengan **kebutuhan awal/requirement** serta mampu memberikan respon ketika terdapat suatu masukan yang **tidak valid**
 {{< /notice >}}
+
+
+> Tampilan ketika semua test **passed**
+
+![output](/assets/r4.png "result" )
+
 
 ---
 
