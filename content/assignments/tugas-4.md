@@ -11,7 +11,7 @@ tags = [
 
 {{< notice warning >}}
 `Deadine` 🕙 \
-`SI` Jumat, 08 Oktober 2021 Pukul 08:30 wib\
+`SI` Jumat, 06 Oktober 2021 Pukul 08:30 wib\
 `MI` Jumat, 08 Oktober 2021 Pukul 08:30 wib
 {{< /notice >}}
 
