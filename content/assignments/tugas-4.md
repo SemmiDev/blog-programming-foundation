@@ -11,8 +11,8 @@ tags = [
 
 {{< notice warning >}}
 `Deadine` 🕙 \
-`SI` Rabu, 06 Oktober 2021 Pukul 08:30 wib\
-`MI` Jumat, 08 Oktober 2021 Pukul 08:30 wib
+`SI` Rabu, 06 Oktober 2021 Pukul 09:30 wib\
+`MI` Jumat, 08 Oktober 2021 Pukul 09:30 wib
 {{< /notice >}}
 
 {{< notice info >}}
@@ -45,7 +45,12 @@ Intinya, nama method bersifat **case sensitive** dan buatlah nama method yang se
 
 ---
 
-## ▶ Sistem Login sederhana
+{{< notice info >}}
+Untuk soal no 1 **tidak wajib dikerjakan**, bagi yang mau mengerjakan silahkan\
+Yang dinilai hanya soal no **2 dan 3**
+{{< /notice >}}
+
+## ▶ Sistem Login sederhana 
 `A. Deskripsi`\
 Pak Faren ingin memiliki sebuah **sistem login sederhana**.\
 Karena angkatan 2021 dari prodi SI & MI mahasiswanya baik hati & tidak sombong, maka mereka dengan senang hati akan membuatkan sebuah sistem login sederhana untuk Pak Faren.
