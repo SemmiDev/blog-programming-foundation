@@ -70,6 +70,12 @@ maka akan dicek lagi, apakah **password** yang dimasukkan sama/equals dengan `fa
 
 ---
 
+{{< notice info >}}
+Silahkan [tonton vidio ini](https://youtu.be/SMlCNAMsEeQ)
+{{< /notice >}}
+
+---
+
 ## ▶ Bermain dengan pola angka
 `A. Deskripsi`\
 Pak Sammi meminta Anda untuk **memperhatikan/menganalisa contoh masukan dan keluaran yang diberikan dibawah, menemukan polanya, lalu membuat program yang menghasilkan pola tersebut**.
