@@ -1,8 +1,8 @@
 +++
 author = "assistant lecture"
-title = "Tugas 4 📜 Method"
+title = "Tugas 4 📖 Method"
 date = "2021-10-04"
-description = "Tugas 4 📜 Method"
+description = "Tugas 4 📖 Method"
 tags = [
     "assignments",
     "java",
