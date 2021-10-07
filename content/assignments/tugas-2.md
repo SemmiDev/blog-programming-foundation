@@ -1,8 +1,8 @@
 +++
 author = "assistant lecture"
-title = "Tugas 2 📜 Percabangan"
+title = "Tugas 2 📖 Percabangan"
 date = "2021-09-20"
-description = "Tugas 2 📜 Percabangan"
+description = "Tugas 2 📖 Percabangan"
 tags = [
     "assignments",
     "java",
