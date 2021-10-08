@@ -13,6 +13,8 @@ tags = [
 **Deadine** ⏳ \
 **SI = Kamis, 07 Oktober 2021 Pukul 23:00 wib** \
 **MI = Kamis, 07 Oktober 2021 Pukul 23:00 wib**
+
+Pembahasan [Lihat Disini](https://www.youtube.com/watch?v=D0qfQE2FFxU)
 {{< /notice >}}
 
 # Daftar isi
