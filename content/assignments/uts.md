@@ -26,7 +26,7 @@ public class UTS {
 ## Soal
 Buatlah program perulangan angka, yang dimulai dari **1** sampai dengan **50**\
 Kemudian lakukan **pengecekan**\
-Jika bilangannya **kelipatan 10**, maka cetak `ini bil kelipatan 10 bro`\
+Jika bilangannya **kelipatan 10**, maka cetak `ini bil kelipatan 10`\
 Jika bilangannya nya **genap**, maka cetak `ini bil genap bro`\
 Kalau **ganjil** maka cetak `ini bil ganjil bro`
 
