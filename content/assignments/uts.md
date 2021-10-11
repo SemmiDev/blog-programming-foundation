@@ -11,6 +11,7 @@ tags = [
 
 {{< notice info >}}
 - File yang akan di upload: **UTS.java**
+- Alokasi waktu: 11:30 - 12:00 (30m)
 {{< /notice >}}
 
 ## Template program
