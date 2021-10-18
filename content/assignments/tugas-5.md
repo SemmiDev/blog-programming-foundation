@@ -42,8 +42,8 @@ Buatlah sebuah array (nama variable array-nya bebas) yang berisi data sebagai be
 ![rumus-quartile](/assets/quartile.png "rumus-quartile untu k n + 1 % 4 == 0")
 
 **Ket**
-- **x** pada soal mengindikasikan *letak*
-- misalnya, jika didapat **x** nya = 3, maka hasil quartil terletak pada posisi ke 3 pada kumpulan data (yg sudah di urutkan)
+- **x** pada rumus mengindikasikan *letak / posisi quartil*
+- misalnya, jika didapat **x** nya = 3, maka nilai quartil nya terletak pada posisi ke 3 pada kumpulan data (yg sudah terurut)
 - ingat, **indeks array** dimulai dari **0**
 
 **Output**
