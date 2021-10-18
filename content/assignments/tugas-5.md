@@ -18,7 +18,7 @@ tags = [
 Nama file program **Array.java**
 {{< /notice >}}
  
-## ▶ Java 🤍 Statistika
+## ▶ Java 💚 Statistika
 
 **Deskripsi**
 
