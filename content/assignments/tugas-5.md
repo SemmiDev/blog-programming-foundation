@@ -1,7 +1,7 @@
 +++
 author = "assistant lecture"
 title = "Tugas 5 📖 Array"
-date = "2021-10-10"
+date = "2021-10-18"
 description = "Tugas 5 📖 Array"
 tags = [
     "assignments",
@@ -9,60 +9,47 @@ tags = [
 ]
 +++
 
-### Coming Soon ... hehehe
+{{< notice info >}}
+`Deadine`\
+**SI** Rabu, 20 Oktober 2021 Pukul 09:30 wib\
+**MI** Jumat, 22 Oktober 2021 Pukul 09:30 wib
 
-<!-- 
-## ▶ Balikin angkanya dong
-
-`Deskripsi`
-
-Cetaklah **bilangan-bilangan** yang ada didalam **array *bilangan*** dalam **urutan terbalik** dan dipisahkan dengan tanda **koma**
-
-`Ketentuan`
-
-Wajib menggunakan **perulangan**
-
-`Template Program`
-
-```java
-public class LatihanArray {
-    public static void main(String[] args) {
-        int[] bilangan = {1,5,7,2,3,10,23,1,5,7,2,12,33,43};
-        // tulis programnya disini
-    }
-}
-```
-
-`Output`
->43, 33, 12, 2, 7, 5, 1, 23, 10, 3, 2, 7, 5, 1
-
-
+`Peraturan`\
+Nama file program **Array.java**
+{{< /notice >}}
+ 
 ## ▶ Java 🤍 Statistika
 
-`Deskripsi`
+**Deskripsi**
 
-Tentukanlah nilai **minimum, maksimum, total, rata-rata, quartil 1, quartil 2(median), dan quartil 3** yang terdapat pada **array *bilangan***.
+Buatlah sebuah array (nama variable array-nya bebas) yang berisi data sebagai berikut `15, 15, 15, 15, 16, 16, 17, 17, 20, 21, 23, 23, 28, 30, 32, 35, 37, 38, 40, 41, 41, 43, 45, 45, 49, 50, 53, 54, 55, 55, 59, 59, 60, 63, 65, 65, 67, 70, 71, 72, 72, 75, 75, 78, 80, 82, 83, 84, 85, 85, 85, 88, 89, 89, 90, 92, 93, 94, 95, 95, 96, 96, 97, 97, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99`
 
-`Template Program`
+**Tentukanlah** 
+- `Total`
+- `Rata-Rata`
+- `Kuartil 1`
+- `Kuartil 2 (median)`
+- `Kuartil 3`
 
-```java
-public class LatihanArray {
-    public static void main(String[] args) {
-        int[] bilangan = {1,2,3,4,5,6,7,8,9,10,11};
-        // tulis programnya disini
-    }
-}
-```
+**Tips**
 
-`Output`
+- Gunakan perulangan & beberapa operasi matematika
+- Untuk rata-rata gunakan tipe data **double**
+- Dibawah ini merupakan rumus kuartil untuk **n+1** habis dibagi 4\
+`n = banyaknya data`
 
-**Min = 1**\
-**Max = 11**\
-**Total = 66**\
-**Rata-Rata = 6**\
-**Q1 = 3**\
-**Q2 = 6**\
-**Q3 = 9**
 
-`Tips`
-- Gunakan perulangan -->
+![rumus-quartile](/assets/quartile.png "rumus-quartile untu k n + 1 % 4 == 0")
+
+**Ket**
+- **x** pada soal mengindikasikan *letak*
+- misalnya, jika didapat **x** nya = 3, maka hasil quartil terletak pada posisi ke 3 pada kumpulan data (yg sudah di urutkan)
+- ingat, **indeks array** dimulai dari **0**
+
+**Output**
+
+Total = 4816\
+Rata-rata = 64.0\
+Letak q1: x19 = 40\
+Letak q2: x38 = 70\
+Letak q3: x57 = 93
