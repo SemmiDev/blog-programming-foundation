@@ -3,7 +3,7 @@ SI Rabu, 20 Oktober 2021 Pukul 09:30 wib
 MI Jumat, 22 Oktober 2021 Pukul 09:30 wib
 Peraturan
 Nama file program Array.java
-▶ Java 🤍 Statistika Deskripsi
+▶ Java 💚 Statistika Deskripsi
 Buatlah sebuah array (nama variable array-nya bebas) yang berisi data sebagai berikut 15, 15, 15, 15, 16, 16, 17, 17, 20, 21, 23, 23, 28, 30, 32, 35, 37, 38, 40, 41, 41, 43, 45, 45, 49, 50, 53, 54, 55, 55, 59, 59, 60, 63, 65, 65, 67, 70, 71, 72, 72, 75, 75, 78, 80, 82, 83, 84, 85, 85, 85, 88, 89, 89, 90, 92, 93, 94, 95, 95, 96, 96, 97, 97, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99</description></item><item><title>Ujian Tengah Semester</title><link>https://programming-concept.netlify.app/assignments/uts/</link><pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate><guid>https://programming-concept.netlify.app/assignments/uts/</guid><description>Info File yang akan di upload: UTS.java Alokasi waktu: 11:30 - 12:00 (30m) Template program public class UTS { public static void main(String[] args) { // tulis programnya disini } } Soal Buatlah program perulangan angka, yang dimulai dari 1 sampai dengan 50
 Kemudian lakukan pengecekan
 Jika bilangannya kelipatan 10, maka cetak ini bil kelipatan 10
