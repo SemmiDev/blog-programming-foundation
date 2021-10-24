@@ -1,0 +1,192 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+<meta name=author content="Programming Foundation">
+<meta name=description content="Tugas 6 📖 String">
+<meta name=keywords content="blog,developer,programming,java">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Tugas 6 📖 String">
+<meta name=twitter:description content="Tugas 6 📖 String">
+<meta property="og:title" content="Tugas 6 📖 String">
+<meta property="og:description" content="Tugas 6 📖 String">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://programming-concept.netlify.app/assignments/tugas-6/"><meta property="article:section" content="assignments">
+<meta property="article:published_time" content="2021-10-24T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-10-24T00:00:00+00:00">
+<title>
+Tugas 6 📖 String · Let's Code!
+</title>
+<link rel=canonical href=https://programming-concept.netlify.app/assignments/tugas-6/>
+<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=/css/coder.min.34dfa7b2f5cdeb0f5302b2628f4a7a4bfe88a2431e1397ee4ec605c56ab69701.css integrity="sha256-NN+nsvXN6w9TArJij0p6S/6IokMeE5fuTsYFxWq2lwE=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen>
+<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body class="preload-transitions colorscheme-dark">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=/>
+Let's Code!
+</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=/about/>About</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/assignments/>Assignments</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container page">
+<article>
+<header>
+<h1 class=title>
+<a class=title-link href=https://programming-concept.netlify.app/assignments/tugas-6/>
+Tugas 6 📖 String
+</a>
+</h1>
+</header>
+<div class="notice info">
+<div class=notice-title>
+<i class="fa fa-exclamation-circle" aria-hidden=true></i>Info
+</div>
+<div class=notice-content><p><code>Deadine</code><br>
+<strong>SI</strong> Rabu, 27 Oktober 2021 Pukul 10:00 wib<br>
+<strong>MI</strong> Jumat, 29 Oktober 2021 Pukul 10:00 wib</p>
+<p><code>Peraturan</code><br>
+Nama file program <strong>NIMExtractor.java</strong></p></div>
+</div>
+<h2 id=-nomor-induk-mahasiswa-nim>
+▶ Nomor Induk Mahasiswa (NIM)
+<a class=heading-link href=#-nomor-induk-mahasiswa-nim>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<p><code>Deskripsi</code></p>
+<p>Mail yang berkuliah di <strong>Universitas Ebisidi</strong> ingin mengetahui makna dari NIM yang diberikan univ tersebut kepadanya. <strong>Universitas Ebisidi</strong> tersebut memiliki aturan & pemaknaan dari NIM yang diberikan kepada para mahasiswanya.</p>
+<p>Berikut beberapa aturan dan pemaknaannya:<br>
+<strong>Aturan</strong></p>
+<ul>
+<li>NIM berjumlah 10 karakter</li>
+<li>NIM Tidak boleh mengandung spasi</li>
+</ul>
+<p><strong>Makna</strong></p>
+<p><img src=/assets/nim.png alt=nim title=NIM></p>
+<ul>
+<li>Dua karakter pertama, menandakan tahun <strong>A</strong>ngkatan
+<ul>
+<li><strong>20</strong> untuk angkatan 2020</li>
+<li><strong>21</strong> untuk angkatan 2021</li>
+</ul>
+</li>
+<li>Dua karakter berikutnya, menandakan kode <strong>F</strong>akultas
+<ul>
+<li><strong>01</strong> untuk FK</li>
+<li><strong>02</strong> untuk FT</li>
+<li><strong>03</strong> untuk FMIPA</li>
+</ul>
+</li>
+<li>Dua karakter berikutnya, menandakan <strong>J</strong>alur masuk
+<ul>
+<li><strong>11</strong> Jalur SBMPTN</li>
+<li><strong>12</strong> Jalur SNMPTN</li>
+<li><strong>13</strong> Jalur PBUD</li>
+</ul>
+</li>
+<li>Empat karakter terakhir, menandakan <strong>N</strong>omor mahasiswa</li>
+</ul>
+<hr>
+<p>Buatlah program untuk meng ekstrak NIM yang diberikan univ tersebut</p>
+<p><code>Template Program</code></p>
+<pre><code>public class NIMExtractor {
+	public static void main(String[] args) {
+
+	}
+	public static void extract(String nim) {
+        // tulis programnya disini
+	}
+}
+</code></pre>
+<p><code>Lakukan validasi di method extract</code></p>
+<ul>
+<li>Jika nim <em>mengandung</em> spasi, maka cetak <strong>Tidak Boleh Ada Spasi</strong>, kemudian <strong>hentikan program</strong></li>
+<li>Jika panjang karakter nim tidak sama dengan 10, maka cetak <strong>NIM tidak valid</strong>, kemudian <strong>hentikan program</strong><br>
+<code>note</code> : untuk menghentikan program, gunakan <strong>System.exit(1)</strong></li>
+</ul>
+<p><code>Contoh Masukan</code><br>
+2003113948</p>
+<p><code>Contoh Keluaran</code><br>
+NIM: 2003113948<br>
+Angkatan: 2020<br>
+Fakultas: FMIPA<br>
+Jalur: SBMPTN<br>
+No Mahasiswa: 3948</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+2103123950</p>
+<p><code>Contoh Keluaran</code><br>
+NIM: 2103123950<br>
+Angkatan: 2021<br>
+Fakultas: FMIPA<br>
+Jalur: SNMPTN<br>
+No Mahasiswa: 3950</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+2101123952</p>
+<p><code>Contoh Keluaran</code><br>
+NIM: 2101123952<br>
+Angkatan: 2021<br>
+Fakultas: FK<br>
+Jalur: SNMPTN<br>
+No Mahasiswa: 3952</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+21011239522173682173813</p>
+<p><code>Contoh Keluaran</code><br>
+NIM Tidak valid</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+20031139 48</p>
+<p><code>Contoh Keluaran</code><br>
+Tidak Boleh Ada Spasi</p>
+<hr>
+<p><code>Bahan bacaan/Referensi</code></p>
+<ul>
+<li><a href=https://www.javatpoint.com/java-string>javatpoint</a></li>
+<li><a href=/assets/String.pdf>Download</a> Handbook</li>
+</ul>
+</article>
+</section>
+</div>
+<footer class=footer>
+<section class=container>
+<p>“First, solve the problem. Then, write the code”</p>
+©
+2021
+Programming Foundation
+</section>
+</footer>
+</main>
+<script src=/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
+</body>
+</html>
