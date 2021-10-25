@@ -6,19 +6,19 @@
 <meta name=color-scheme content="light dark">
 <meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
 <meta name=author content="Programming Foundation">
-<meta name=description content="Tugas 6 📖 String">
+<meta name=description content="Tugas 6 📖 Class & Object">
 <meta name=keywords content="blog,developer,programming,java">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Tugas 6 📖 String">
-<meta name=twitter:description content="Tugas 6 📖 String">
-<meta property="og:title" content="Tugas 6 📖 String">
-<meta property="og:description" content="Tugas 6 📖 String">
+<meta name=twitter:title content="Tugas 6 📖 Class & Object">
+<meta name=twitter:description content="Tugas 6 📖 Class & Object">
+<meta property="og:title" content="Tugas 6 📖 Class & Object">
+<meta property="og:description" content="Tugas 6 📖 Class & Object">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://programming-concept.netlify.app/assignments/tugas-6/"><meta property="article:section" content="assignments">
 <meta property="article:published_time" content="2021-10-24T00:00:00+00:00">
 <meta property="article:modified_time" content="2021-10-24T00:00:00+00:00">
 <title>
-Tugas 6 📖 String · Let's Code!
+Tugas 6 📖 Class & Object · Let's Code!
 </title>
 <link rel=canonical href=https://programming-concept.netlify.app/assignments/tugas-6/>
 <link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
@@ -62,7 +62,7 @@ Let's Code!
 <header>
 <h1 class=title>
 <a class=title-link href=https://programming-concept.netlify.app/assignments/tugas-6/>
-Tugas 6 📖 String
+Tugas 6 📖 Class & Object
 </a>
 </h1>
 </header>
@@ -71,110 +71,65 @@ Tugas 6 📖 String
 <i class="fa fa-exclamation-circle" aria-hidden=true></i>Info
 </div>
 <div class=notice-content><p><code>Deadine</code><br>
-<strong>SI</strong> Rabu, 27 Oktober 2021 Pukul 10:00 wib<br>
+<strong>SI</strong> Rabu, 27 November 2021 Pukul 10:00 wib<br>
 <strong>MI</strong> Jumat, 29 Oktober 2021 Pukul 10:00 wib</p>
 <p><code>Peraturan</code><br>
-Nama file program <strong>NIMExtractor.java</strong></p></div>
+Nama file program <strong>Student.java</strong></p></div>
 </div>
-<h2 id=-nomor-induk-mahasiswa-nim>
-▶ Nomor Induk Mahasiswa (NIM)
-<a class=heading-link href=#-nomor-induk-mahasiswa-nim>
+<h2 id=-akses-attribute>
+▶ Akses Attribute
+<a class=heading-link href=#-akses-attribute>
 <i class="fa fa-link" aria-hidden=true></i>
 </a>
 </h2>
 <p><code>Deskripsi</code></p>
-<p>Mail yang berkuliah di <strong>Universitas Ebisidi</strong> ingin mengetahui makna dari NIM yang diberikan univ tersebut kepadanya. <strong>Universitas Ebisidi</strong> tersebut memiliki aturan & pemaknaan dari NIM yang diberikan kepada para mahasiswanya.</p>
-<p>Berikut beberapa aturan dan pemaknaannya:<br>
-<strong>Aturan</strong></p>
-<ul>
-<li>NIM berjumlah 10 karakter</li>
-<li>NIM Tidak boleh mengandung spasi</li>
-</ul>
-<p><strong>Makna</strong></p>
-<p><img src=/assets/nim.png alt=nim title=NIM></p>
-<ul>
-<li>Dua karakter pertama, menandakan tahun <strong>A</strong>ngkatan
-<ul>
-<li><strong>20</strong> untuk angkatan 2020</li>
-<li><strong>21</strong> untuk angkatan 2021</li>
-</ul>
-</li>
-<li>Dua karakter berikutnya, menandakan kode <strong>F</strong>akultas
-<ul>
-<li><strong>01</strong> untuk FK</li>
-<li><strong>02</strong> untuk FT</li>
-<li><strong>03</strong> untuk FMIPA</li>
-</ul>
-</li>
-<li>Dua karakter berikutnya, menandakan <strong>J</strong>alur masuk
-<ul>
-<li><strong>11</strong> Jalur SBMPTN</li>
-<li><strong>12</strong> Jalur SNMPTN</li>
-<li><strong>13</strong> Jalur PBUD</li>
-</ul>
-</li>
-<li>Empat karakter terakhir, menandakan <strong>N</strong>omor mahasiswa</li>
-</ul>
-<hr>
-<p>Buatlah program untuk meng ekstrak NIM yang diberikan univ tersebut</p>
+<p>Diberikan template program dibawah ini, silahkan coba akses attribut dari object <strong>mail</strong>.<br>
+Attribut yang akan di akses adalah <strong>id</strong>, <strong>name</strong>, dan <strong>nim</strong>
+Kemudian tampilkan attribut yang di dapat.</p>
 <p><code>Template Program</code></p>
-<pre><code>public class NIMExtractor {
-	public static void main(String[] args) {
+<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=font-weight:700>import</span> <span style=font-weight:700>java.util.*</span>;
 
+<span style=font-weight:700>public</span> <span style=font-weight:700>class</span> <span style=font-weight:700>Main</span> {
+	<span style=font-weight:700>public</span> <span style=font-weight:700>static</span> <span>void</span> main(String[] args) {
+		Student mail = <span style=font-weight:700>new</span> Student(1, <span style=font-style:italic>&#34;mail&#34;</span>, <span style=font-style:italic>&#34;2003113999&#34;</span>);
+
+		<span style=font-style:italic>// coba akses attribut id, kemudian tampilkan
+</span><span style=font-style:italic></span>		<span style=font-style:italic>// coba akses attribut name, kemudian tampilkan
+</span><span style=font-style:italic></span>		<span style=font-style:italic>// coba akses attribut nim, kemudian tampilkan
+</span><span style=font-style:italic></span>	}
+}
+
+<span style=font-weight:700>class</span> <span style=font-weight:700>Student</span> {
+	<span style=font-weight:700>private</span> <span>int</span> id;
+	<span style=font-weight:700>private</span> String name;
+	<span style=font-weight:700>private</span> String nim;
+
+	<span style=font-weight:700>public</span> Student(<span>int</span> id, String name, String nim) {
+		<span style=font-weight:700>this</span>.id = id;
+		<span style=font-weight:700>this</span>.name = name;
+		<span style=font-weight:700>this</span>.nim = nim;
 	}
-	public static void extract(String nim) {
-        // tulis programnya disini
+
+	<span style=font-weight:700>public</span> <span>int</span> getId() {
+		<span style=font-weight:700>return</span> id;
+	}
+	<span style=font-weight:700>public</span> String getName() {
+		<span style=font-weight:700>return</span> name;
+	}
+	<span style=font-weight:700>public</span> String getNim() {
+		<span style=font-weight:700>return</span> nim;
+	}
+	<span style=font-weight:700>public</span> <span>void</span> setName(String inputName) {
+		name = inputName;
+	}
+	<span style=font-weight:700>public</span> <span>void</span> setNim(String inputNim) {
+		nim = inputNim;
 	}
 }
-</code></pre>
-<p><code>Lakukan validasi di method extract</code></p>
-<ul>
-<li>Jika nim <em>mengandung</em> spasi, maka cetak <strong>Tidak Boleh Ada Spasi</strong>, kemudian <strong>hentikan program</strong></li>
-<li>Jika panjang karakter nim tidak sama dengan 10, maka cetak <strong>NIM tidak valid</strong>, kemudian <strong>hentikan program</strong><br>
-<code>note</code> : untuk menghentikan program, gunakan <strong>System.exit(1)</strong></li>
-</ul>
-<p><code>Contoh Masukan</code><br>
-2003113948</p>
-<p><code>Contoh Keluaran</code><br>
-NIM: 2003113948<br>
-Angkatan: 2020<br>
-Fakultas: FMIPA<br>
-Jalur: SBMPTN<br>
-No Mahasiswa: 3948</p>
-<hr>
-<p><code>Contoh Masukan</code><br>
-2103123950</p>
-<p><code>Contoh Keluaran</code><br>
-NIM: 2103123950<br>
-Angkatan: 2021<br>
-Fakultas: FMIPA<br>
-Jalur: SNMPTN<br>
-No Mahasiswa: 3950</p>
-<hr>
-<p><code>Contoh Masukan</code><br>
-2101123952</p>
-<p><code>Contoh Keluaran</code><br>
-NIM: 2101123952<br>
-Angkatan: 2021<br>
-Fakultas: FK<br>
-Jalur: SNMPTN<br>
-No Mahasiswa: 3952</p>
-<hr>
-<p><code>Contoh Masukan</code><br>
-21011239522173682173813</p>
-<p><code>Contoh Keluaran</code><br>
-NIM Tidak valid</p>
-<hr>
-<p><code>Contoh Masukan</code><br>
-20031139 48</p>
-<p><code>Contoh Keluaran</code><br>
-Tidak Boleh Ada Spasi</p>
-<hr>
-<p><code>Bahan bacaan/Referensi</code></p>
-<ul>
-<li><a href=https://www.javatpoint.com/java-string>javatpoint</a></li>
-<li><a href=/assets/String.pdf>Download</a> Handbook</li>
-</ul>
+</code></pre></div><p><code>Output</code><br>
+1<br>
+mail<br>
+2003113999</p>
 </article>
 </section>
 </div>

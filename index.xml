@@ -1,6 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Let's Code!</title><link>https://programming-concept.netlify.app/</link><description>Recent content on Let's Code!</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://programming-concept.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Tugas 6 📖 String</title><link>https://programming-concept.netlify.app/assignments/tugas-6/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate><guid>https://programming-concept.netlify.app/assignments/tugas-6/</guid><description>Info Deadine
-SI Rabu, 27 Oktober 2021 Pukul 10:00 wib
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Let's Code!</title><link>https://programming-concept.netlify.app/</link><description>Recent content on Let's Code!</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://programming-concept.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Tugas 6 📖 Class &amp; Object</title><link>https://programming-concept.netlify.app/assignments/tugas-6/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate><guid>https://programming-concept.netlify.app/assignments/tugas-6/</guid><description>Info Deadine
+SI Rabu, 27 November 2021 Pukul 10:00 wib
 MI Jumat, 29 Oktober 2021 Pukul 10:00 wib
+Peraturan
+Nama file program Student.java
+▶ Akses Attribute Deskripsi
+Diberikan template program dibawah ini, silahkan coba akses attribut dari object mail.
+Attribut yang akan di akses adalah id, name, dan nim Kemudian tampilkan attribut yang di dapat.
+Template Program
+import java.util.*; public class Main { public static void main(String[] args) { Student mail = new Student(1, &amp;#34;mail&amp;#34;, &amp;#34;2003113999&amp;#34;); // coba akses attribut id, kemudian tampilkan // coba akses attribut name, kemudian tampilkan // coba akses attribut nim, kemudian tampilkan } } class Student { private int id; private String name; private String nim; public Student(int id, String name, String nim) { this.</description></item><item><title>Tugas 7 📖 String</title><link>https://programming-concept.netlify.app/assignments/tugas-7/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate><guid>https://programming-concept.netlify.app/assignments/tugas-7/</guid><description>Info Deadine
+SI Rabu, 03 November 2021 Pukul 10:00 wib
+MI Jumat, 05 Oktober 2021 Pukul 10:00 wib
 Peraturan
 Nama file program NIMExtractor.java
 ▶ Nomor Induk Mahasiswa (NIM) Deskripsi
