@@ -15,7 +15,7 @@ tags = [
 **MI** Jumat, 29 Oktober 2021 Pukul 10:00 wib
 
 `Peraturan`\
-Nama file program **Student.java**
+Nama file program **Main.java**
 {{< /notice >}}
  
 ## ▶ Akses Attribute
