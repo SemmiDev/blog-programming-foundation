@@ -9,7 +9,10 @@ tags = [
 ]
 +++
 
-{{< notice info >}}
+
+yee... mingdep kita libur nugas dlu yee`1 November 2021`
+
+<!-- {{< notice info >}}
 `Deadine`\
 **SI** Rabu, 03 November 2021 Pukul 10:00 wib\
 **MI** Jumat, 05 Oktober 2021 Pukul 10:00 wib
@@ -121,4 +124,4 @@ NIM Tidak valid
 
 `Bahan bacaan/Referensi`
 - [javatpoint](https://www.javatpoint.com/java-string)
-- [Download](/assets/String.pdf) Handbook
+- [Download](/assets/String.pdf) Handbook -->
