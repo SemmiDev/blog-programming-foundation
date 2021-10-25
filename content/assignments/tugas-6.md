@@ -30,7 +30,7 @@ public class Main {
 	public static void main(String[] args) {
 		// instansiasi class Mobil
 
-		// set attribut harga dengan 500000000
+		// set attribut harga dengan 1000000
 		
 		// tampilkan harga
 	
@@ -50,5 +50,5 @@ class Mobil {
 ![nim](/assets/class.png "clas&object" )
 
 `Output`\
-500000000\
+1000000.0\
 makin lajuuuu xixixi
