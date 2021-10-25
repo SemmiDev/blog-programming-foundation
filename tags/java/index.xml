@@ -3,11 +3,9 @@ SI Rabu, 27 Oktober 2021 Pukul 10:00 wib
 MI Jumat, 29 Oktober 2021 Pukul 10:00 wib
 Peraturan
 Nama file program Main.java
-▶ Akses Attribute Deskripsi
-Diberikan template program dibawah ini, silahkan coba akses attribut dari object mail.
-Attribut yang akan di akses adalah id, name, dan nim Kemudian tampilkan attribut yang di dapat.
-Template Program
-import java.util.*; public class Main { public static void main(String[] args) { Student mail = new Student(1, &amp;#34;mail&amp;#34;, &amp;#34;2003113999&amp;#34;); // coba akses attribut id, kemudian tampilkan // coba akses attribut name, kemudian tampilkan // coba akses attribut nim, kemudian tampilkan } } class Student { private int id; private String name; private String nim; public Student(int id, String name, String nim) { this.</description></item><item><title>Tugas 7 📖 String</title><link>https://programming-concept.netlify.app/assignments/tugas-7/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate><guid>https://programming-concept.netlify.app/assignments/tugas-7/</guid><description>Info Deadine
+▶ Class &amp;amp; Objek Deskripsi
+Diberikan template program dibawah ini. Silahkan isi class Mobil dengan attribut harga yang bertipe data double. Kemudian bikin juga didalam class Mobil tersebut sebuah method dengan nama tambahKecepatan yang isinya cuma menampikan makin lajuuuu xixixi
+Template Program</description></item><item><title>Tugas 7 📖 String</title><link>https://programming-concept.netlify.app/assignments/tugas-7/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate><guid>https://programming-concept.netlify.app/assignments/tugas-7/</guid><description>Info Deadine
 SI Rabu, 03 November 2021 Pukul 10:00 wib
 MI Jumat, 05 Oktober 2021 Pukul 10:00 wib
 Peraturan
