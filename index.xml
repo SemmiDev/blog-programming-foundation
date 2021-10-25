@@ -2,7 +2,7 @@
 SI Rabu, 27 November 2021 Pukul 10:00 wib
 MI Jumat, 29 Oktober 2021 Pukul 10:00 wib
 Peraturan
-Nama file program Student.java
+Nama file program Main.java
 ▶ Akses Attribute Deskripsi
 Diberikan template program dibawah ini, silahkan coba akses attribut dari object mail.
 Attribut yang akan di akses adalah id, name, dan nim Kemudian tampilkan attribut yang di dapat.
