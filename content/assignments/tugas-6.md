@@ -11,7 +11,7 @@ tags = [
 
 {{< notice info >}}
 `Deadine`\
-**SI** Rabu, 27 November 2021 Pukul 10:00 wib\
+**SI** Rabu, 27 Oktober 2021 Pukul 10:00 wib\
 **MI** Jumat, 29 Oktober 2021 Pukul 10:00 wib
 
 `Peraturan`\
