@@ -1,8 +1,8 @@
 +++
 author = "assistant lecture"
-title = "Tugas 6 📖 String"
+title = "Tugas 6 📖 Class & Object"
 date = "2021-10-24"
-description = "Tugas 6 📖 String"
+description = "Tugas 6 📖 Class & Object"
 tags = [
     "assignments",
     "java",
@@ -11,114 +11,65 @@ tags = [
 
 {{< notice info >}}
 `Deadine`\
-**SI** Rabu, 27 Oktober 2021 Pukul 10:00 wib\
+**SI** Rabu, 27 November 2021 Pukul 10:00 wib\
 **MI** Jumat, 29 Oktober 2021 Pukul 10:00 wib
 
 `Peraturan`\
-Nama file program **NIMExtractor.java**
+Nama file program **Student.java**
 {{< /notice >}}
  
-## ▶ Nomor Induk Mahasiswa (NIM)
+## ▶ Akses Attribute
 
 `Deskripsi`
 
-Mail yang berkuliah di **Universitas Ebisidi** ingin mengetahui makna dari NIM yang diberikan univ tersebut kepadanya. **Universitas Ebisidi** tersebut memiliki aturan & pemaknaan dari NIM yang diberikan kepada para mahasiswanya.
+Diberikan template program dibawah ini, silahkan coba akses attribut dari object **mail**.\
+Attribut yang akan di akses adalah **id**, **name**, dan **nim**
+Kemudian tampilkan attribut yang di dapat.
 
-Berikut beberapa aturan dan pemaknaannya:\
-**Aturan**
-- NIM berjumlah 10 karakter
-- NIM Tidak boleh mengandung spasi
-
-**Makna**
-
-![nim](/assets/nim.png "NIM" )
-- Dua karakter pertama, menandakan tahun **A**ngkatan
-	- **20** untuk angkatan 2020
-	- **21** untuk angkatan 2021
-- Dua karakter berikutnya, menandakan kode **F**akultas
-	- **01** untuk FK 
-	- **02** untuk FT
-	- **03** untuk FMIPA
-- Dua karakter berikutnya, menandakan **J**alur masuk
-	- **11** Jalur SBMPTN
-	- **12** Jalur SNMPTN
-	- **13** Jalur PBUD
-- Empat karakter terakhir, menandakan **N**omor mahasiswa
-
----
-
-Buatlah program untuk meng ekstrak NIM yang diberikan univ tersebut
- 
 `Template Program`
+```java
+import java.util.*;
 
-	public class NIMExtractor {
-		public static void main(String[] args) {
+public class Main {
+	public static void main(String[] args) {
+		Student mail = new Student(1, "mail", "2003113999");
 
-		}
-		public static void extract(String nim) {
-			// tulis programnya disini
-		}
+		// coba akses attribut id, kemudian tampilkan
+		// coba akses attribut name, kemudian tampilkan
+		// coba akses attribut nim, kemudian tampilkan
+	}
+}
+
+class Student {
+	private int id;
+	private String name;
+	private String nim;
+
+	public Student(int id, String name, String nim) {
+		this.id = id;
+		this.name = name;
+		this.nim = nim;
 	}
 
-`Lakukan validasi di method extract`
-- Jika nim *mengandung* spasi, maka cetak **Tidak Boleh Ada Spasi**, kemudian **hentikan program**
-- Jika panjang karakter nim tidak sama dengan 10, maka cetak **NIM tidak valid**, kemudian **hentikan program**\
-`note` : untuk menghentikan program, gunakan **System.exit(1)**
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getNim() {
+		return nim;
+	}
+	public void setName(String inputName) {
+		name = inputName;
+	}
+	public void setNim(String inputNim) {
+		nim = inputNim;
+	}
+}
+```
 
-`Contoh Masukan`\
-	2003113948
-
-`Contoh Keluaran`\
-	NIM: 2003113948\
-	Angkatan: 2020\
-	Fakultas: FMIPA\
-	Jalur: SBMPTN\
-	No Mahasiswa: 3948
-
----
-
-`Contoh Masukan`\
-	2103123950
-
-`Contoh Keluaran`\
-	NIM: 2103123950\
-	Angkatan: 2021\
-	Fakultas: FMIPA\
-	Jalur: SNMPTN\
-	No Mahasiswa: 3950
-
----
-
-
-`Contoh Masukan`\
-	2101123952
-
-`Contoh Keluaran`\
-	NIM: 2101123952\
-	Angkatan: 2021\
-	Fakultas: FK\
-	Jalur: SNMPTN\
-	No Mahasiswa: 3952
-
----
-
-`Contoh Masukan`\
-21011239522173682173813
-
-`Contoh Keluaran`\
-NIM Tidak valid
-
----
-
-
-`Contoh Masukan`\
-20031139 48
-
-`Contoh Keluaran`\
-	Tidak Boleh Ada Spasi
-
----
-
-`Bahan bacaan/Referensi`
-- [javatpoint](https://www.javatpoint.com/java-string)
-- [Download](/assets/String.pdf) Handbook
+`Output`\
+1\
+mail\
+2003113999
