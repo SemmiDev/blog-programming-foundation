@@ -10,7 +10,7 @@ tags = [
 +++
 
 
-yee... mingdep kita libur nugas dlu yee`1 November 2021`
+Yee... mingdep `1 November 2021` kita libur nugas dlu yeee
 
 <!-- {{< notice info >}}
 `Deadine`\
