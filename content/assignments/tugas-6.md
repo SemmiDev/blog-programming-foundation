@@ -18,58 +18,37 @@ tags = [
 Nama file program **Main.java**
 {{< /notice >}}
  
-## ▶ Akses Attribute
+## ▶ Class & Objek
 
 `Deskripsi`
 
-Diberikan template program dibawah ini, silahkan coba akses attribut dari object **mail**.\
-Attribut yang akan di akses adalah **id**, **name**, dan **nim**
-Kemudian tampilkan attribut yang di dapat.
+Diberikan template program dibawah ini. Silahkan isi **class** `Mobil` dengan attribut **harga** yang bertipe data **double**. Kemudian bikin juga didalam **class** `Mobil` tersebut sebuah **method** dengan nama **tambahKecepatan** yang isinya cuma menampikan `makin lajuuuu xixixi`
 
 `Template Program`
 ```java
-import java.util.*;
-
 public class Main {
 	public static void main(String[] args) {
-		Student mail = new Student(1, "mail", "2003113999");
+		// instansiasi class Mobil
 
-		// coba akses attribut id, kemudian tampilkan
-		// coba akses attribut name, kemudian tampilkan
-		// coba akses attribut nim, kemudian tampilkan
+		// set attribut harga dengan 500000000
+		
+		// tampilkan harga
+	
+		// panggil method tambahKecepatan
 	}
+} 
+
+class Mobil {
+	// bikin attribut harga bertipe data double
+
+	// bikin method tambahKecepatan
 }
 
-class Student {
-	private int id;
-	private String name;
-	private String nim;
-
-	public Student(int id, String name, String nim) {
-		this.id = id;
-		this.name = name;
-		this.nim = nim;
-	}
-
-	public int getId() {
-		return id;
-	}
-	public String getName() {
-		return name;
-	}
-	public String getNim() {
-		return nim;
-	}
-	public void setName(String inputName) {
-		name = inputName;
-	}
-	public void setNim(String inputNim) {
-		nim = inputNim;
-	}
-}
 ```
 
+`Contoh`\
+![nim](/assets/class.png "clas&object" )
+
 `Output`\
-1\
-mail\
-2003113999
+500000000\
+makin lajuuuu xixixi
