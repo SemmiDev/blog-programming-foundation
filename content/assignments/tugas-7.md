@@ -119,6 +119,12 @@ NIM Tidak valid
 
 ---
 
+`Tips`
+- Gunakan fungsi **substring()**
+- Gunakan fungsi **contains()**
+- Gunakan if
+- Gunakan **length()**
+
 `Bahan bacaan/Referensi`
 - [javatpoint](https://www.javatpoint.com/java-string)
 - [Download](/assets/String.pdf) Handbook
