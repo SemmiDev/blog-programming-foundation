@@ -12,7 +12,7 @@ tags = [
 {{< notice info >}}
 `Deadine`\
 **SI** Rabu, 03 November 2021 Pukul 10:00 wib\
-**MI** Jumat, 05 Oktober 2021 Pukul 10:00 wib
+**MI** Jumat, 05 November 2021 Pukul 10:00 wib
 
 `Peraturan`\
 Nama file program **NIMExtractor.java**
