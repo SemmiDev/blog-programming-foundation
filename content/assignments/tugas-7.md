@@ -39,10 +39,12 @@ Berikut beberapa aturan dan pemaknaannya:\
 	- **01** untuk FK 
 	- **02** untuk FT
 	- **03** untuk FMIPA
+	- selain itu tampilkan **Fakultas: Tidak Diketahui**
 - Dua karakter berikutnya, menandakan **J**alur masuk
 	- **11** Jalur SBMPTN
 	- **12** Jalur SNMPTN
 	- **13** Jalur PBUD
+	- Selain itu tampilkan **Jalur: Tidak Diketahui**
 - Empat karakter terakhir, menandakan **N**omor mahasiswa
 
 ---
@@ -116,6 +118,19 @@ NIM Tidak valid
 
 `Contoh Keluaran`\
 	Tidak Boleh Ada Spasi
+
+---
+
+
+`Contoh Masukan`\
+	2109123952
+
+`Contoh Keluaran`\
+	NIM: 2101123952\
+	Angkatan: 2021\
+	Fakultas: Tidak Diketahui\
+	Jalur: SNMPTN\
+	No Mahasiswa: 3952
 
 ---
 
