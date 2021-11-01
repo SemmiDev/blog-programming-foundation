@@ -66,7 +66,115 @@ Tugas 7 📖 String
 </a>
 </h1>
 </header>
-<p>Yee&mldr; mingdep <code>1 November 2021</code> kita libur nugas dlu yeee</p>
+<div class="notice info">
+<div class=notice-title>
+<i class="fa fa-exclamation-circle" aria-hidden=true></i>Info
+</div>
+<div class=notice-content><p><code>Deadine</code><br>
+<strong>SI</strong> Rabu, 03 November 2021 Pukul 10:00 wib<br>
+<strong>MI</strong> Jumat, 05 Oktober 2021 Pukul 10:00 wib</p>
+<p><code>Peraturan</code><br>
+Nama file program <strong>NIMExtractor.java</strong></p></div>
+</div>
+<h2 id=-nomor-induk-mahasiswa-nim>
+▶ Nomor Induk Mahasiswa (NIM)
+<a class=heading-link href=#-nomor-induk-mahasiswa-nim>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<p><code>Deskripsi</code></p>
+<p>Mail yang berkuliah di <strong>Universitas Ebisidi</strong> ingin mengetahui makna dari NIM yang diberikan univ tersebut kepadanya. <strong>Universitas Ebisidi</strong> tersebut memiliki aturan & pemaknaan dari NIM yang diberikan kepada para mahasiswanya.</p>
+<p>Berikut beberapa aturan dan pemaknaannya:<br>
+<strong>Aturan</strong></p>
+<ul>
+<li>NIM berjumlah 10 karakter</li>
+<li>NIM Tidak boleh mengandung spasi</li>
+</ul>
+<p><strong>Makna</strong></p>
+<p><img src=/assets/nim.png alt=nim title=NIM></p>
+<ul>
+<li>Dua karakter pertama, menandakan tahun <strong>A</strong>ngkatan
+<ul>
+<li><strong>20</strong> untuk angkatan 2020</li>
+<li><strong>21</strong> untuk angkatan 2021</li>
+</ul>
+</li>
+<li>Dua karakter berikutnya, menandakan kode <strong>F</strong>akultas
+<ul>
+<li><strong>01</strong> untuk FK</li>
+<li><strong>02</strong> untuk FT</li>
+<li><strong>03</strong> untuk FMIPA</li>
+</ul>
+</li>
+<li>Dua karakter berikutnya, menandakan <strong>J</strong>alur masuk
+<ul>
+<li><strong>11</strong> Jalur SBMPTN</li>
+<li><strong>12</strong> Jalur SNMPTN</li>
+<li><strong>13</strong> Jalur PBUD</li>
+</ul>
+</li>
+<li>Empat karakter terakhir, menandakan <strong>N</strong>omor mahasiswa</li>
+</ul>
+<hr>
+<p>Buatlah program untuk meng ekstrak NIM yang diberikan univ tersebut</p>
+<p><code>Template Program</code></p>
+<pre><code>public class NIMExtractor {
+	public static void main(String[] args) {
+
+	}
+	public static void extract(String nim) {
+        // tulis programnya disini
+	}
+}
+</code></pre>
+<p><code>Lakukan validasi di method extract</code></p>
+<ul>
+<li>Jika nim <em>mengandung</em> spasi, maka cetak <strong>Tidak Boleh Ada Spasi</strong>, kemudian <strong>hentikan program</strong></li>
+<li>Jika panjang karakter nim tidak sama dengan 10, maka cetak <strong>NIM tidak valid</strong>, kemudian <strong>hentikan program</strong><br>
+<code>note</code> : untuk menghentikan program, gunakan <strong>System.exit(1)</strong></li>
+</ul>
+<p><code>Contoh Masukan</code><br>
+2003113948</p>
+<p><code>Contoh Keluaran</code><br>
+NIM: 2003113948<br>
+Angkatan: 2020<br>
+Fakultas: FMIPA<br>
+Jalur: SBMPTN<br>
+No Mahasiswa: 3948</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+2103123950</p>
+<p><code>Contoh Keluaran</code><br>
+NIM: 2103123950<br>
+Angkatan: 2021<br>
+Fakultas: FMIPA<br>
+Jalur: SNMPTN<br>
+No Mahasiswa: 3950</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+2101123952</p>
+<p><code>Contoh Keluaran</code><br>
+NIM: 2101123952<br>
+Angkatan: 2021<br>
+Fakultas: FK<br>
+Jalur: SNMPTN<br>
+No Mahasiswa: 3952</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+21011239522173682173813</p>
+<p><code>Contoh Keluaran</code><br>
+NIM Tidak valid</p>
+<hr>
+<p><code>Contoh Masukan</code><br>
+20031139 48</p>
+<p><code>Contoh Keluaran</code><br>
+Tidak Boleh Ada Spasi</p>
+<hr>
+<p><code>Bahan bacaan/Referensi</code></p>
+<ul>
+<li><a href=https://www.javatpoint.com/java-string>javatpoint</a></li>
+<li><a href=/assets/String.pdf>Download</a> Handbook</li>
+</ul>
 </article>
 </section>
 </div>
