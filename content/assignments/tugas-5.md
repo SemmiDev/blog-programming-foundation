@@ -10,7 +10,7 @@ tags = [
 +++
 
 {{< notice info >}}
-`Deadine`\
+`Deadline`\
 **SI** Rabu, 20 Oktober 2021 Pukul 09:30 wib\
 **MI** Jumat, 22 Oktober 2021 Pukul 09:30 wib
 

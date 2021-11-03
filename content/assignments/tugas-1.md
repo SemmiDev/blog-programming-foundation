@@ -10,7 +10,7 @@ tags = [
 +++
 
 {{< notice warning >}}
-**Deadine** ⏳ **Kamis, 16 September 2021 Pukul 23:00**
+**Deadline** ⏳ **Kamis, 16 September 2021 Pukul 23:00 WIB**
 {{< /notice >}}
 
 ## Peraturan 

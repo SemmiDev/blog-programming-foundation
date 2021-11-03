@@ -10,7 +10,7 @@ tags = [
 +++
 
 {{< notice warning >}}
-**Deadine** ⏳ \
+**Deadline** ⏳ \
 **SI = Kamis, 07 Oktober 2021 Pukul 23:00 wib** \
 **MI = Kamis, 07 Oktober 2021 Pukul 23:00 wib**
 
