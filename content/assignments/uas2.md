@@ -36,6 +36,6 @@ f23a9EN|2   |karna ada angka *2* (genap)
 - Method **length()** : mengambil panjang array
 - Method **Character.isDigit** : mengecek apakah sebuah karakter itu angka(digit) atau bukan
 - Method **String.valueOf(x)** : mengubah karakter **x** menjadi String
--Method Integer.parseInt(x) : mengubah String **x** menjadi integer
+- Method **Integer.parseInt(x)** : mengubah String **x** menjadi kembalian integer
 
 {{< /notice >}}
