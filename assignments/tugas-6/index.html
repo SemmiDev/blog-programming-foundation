@@ -1,125 +1,24 @@
-<!doctype html><html lang=en>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=content-language content="en">
-<meta name=color-scheme content="light dark">
-<meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
-<meta name=author content="Programming Foundation">
-<meta name=description content="Tugas 6 📖 Class & Object">
-<meta name=keywords content="blog,developer,programming,java">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Tugas 6 📖 Class & Object">
-<meta name=twitter:description content="Tugas 6 📖 Class & Object">
-<meta property="og:title" content="Tugas 6 📖 Class & Object">
-<meta property="og:description" content="Tugas 6 📖 Class & Object">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://programming-concept.netlify.app/assignments/tugas-6/"><meta property="article:section" content="assignments">
-<meta property="article:published_time" content="2021-10-24T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-10-24T00:00:00+00:00">
-<title>
-Tugas 6 📖 Class & Object · Let's Code!
-</title>
-<link rel=canonical href=https://programming-concept.netlify.app/assignments/tugas-6/>
-<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
-<link rel=stylesheet href=/css/coder.min.34dfa7b2f5cdeb0f5302b2628f4a7a4bfe88a2431e1397ee4ec605c56ab69701.css integrity="sha256-NN+nsvXN6w9TArJij0p6S/6IokMeE5fuTsYFxWq2lwE=" crossorigin=anonymous media=screen>
-<link rel=stylesheet href=/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen>
-<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
-<link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16>
-<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
-<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.91.0">
-</head>
-<body class="preload-transitions colorscheme-dark">
-<div class=float-container>
-<a id=dark-mode-toggle class=colorscheme-toggle>
-<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
-</a>
-</div>
-<main class=wrapper>
-<nav class=navigation>
-<section class=container>
-<a class=navigation-title href=/>
-Let's Code!
-</a>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=color-scheme content="light dark"><meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;"><meta name=author content="Programming Foundation"><meta name=description content="Tugas 6 📖 Class & Object"><meta name=keywords content="blog,developer,programming,java"><meta name=twitter:card content="summary"><meta name=twitter:title content="Tugas 6 📖 Class & Object"><meta name=twitter:description content="Tugas 6 📖 Class & Object"><meta property="og:title" content="Tugas 6 📖 Class & Object"><meta property="og:description" content="Tugas 6 📖 Class & Object"><meta property="og:type" content="article"><meta property="og:url" content="https://programming-concept.netlify.app/assignments/tugas-6/"><meta property="article:section" content="assignments"><meta property="article:published_time" content="2021-10-24T00:00:00+00:00"><meta property="article:modified_time" content="2021-10-24T00:00:00+00:00"><title>Tugas 6 📖 Class & Object · Let's Code!</title><link rel=canonical href=https://programming-concept.netlify.app/assignments/tugas-6/><link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.34dfa7b2f5cdeb0f5302b2628f4a7a4bfe88a2431e1397ee4ec605c56ab69701.css integrity="sha256-NN+nsvXN6w9TArJij0p6S/6IokMeE5fuTsYFxWq2lwE=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><meta name=generator content="Hugo 0.101.0"></head><body class="preload-transitions colorscheme-dark"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Let's Code!</a>
 <input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle>
-<i class="fa fa-bars fa-fw" aria-hidden=true></i>
-</label>
-<ul class=navigation-list>
-<li class=navigation-item>
-<a class=navigation-link href=/about/>About</a>
-</li>
-<li class=navigation-item>
-<a class=navigation-link href=/assignments/>Assignments</a>
-</li>
-</ul>
-</section>
-</nav>
-<div class=content>
-<section class="container page">
-<article>
-<header>
-<h1 class=title>
-<a class=title-link href=https://programming-concept.netlify.app/assignments/tugas-6/>
-Tugas 6 📖 Class & Object
-</a>
-</h1>
-</header>
-<div class="notice info">
-<div class=notice-title>
-<i class="fa fa-exclamation-circle" aria-hidden=true></i>Info
-</div>
-<div class=notice-content><p><code>Deadline</code><br>
-<strong>SI</strong> Rabu, 27 Oktober 2021 Pukul 10:00 wib<br>
-<strong>MI</strong> Jumat, 29 Oktober 2021 Pukul 10:00 wib</p>
-<p><code>Peraturan</code><br>
-Nama file program <strong>Main.java</strong></p></div>
-</div>
-<h2 id=-class--objek>
-▶ Class & Objek
-<a class=heading-link href=#-class--objek>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h2>
-<p><code>Deskripsi</code></p>
-<p>Diberikan template program dibawah ini. Silahkan isi <strong>class</strong> <code>Mobil</code> dengan attribut <strong>harga</strong> yang bertipe data <strong>double</strong>. Kemudian bikin juga didalam <strong>class</strong> <code>Mobil</code> tersebut sebuah <strong>method</strong> dengan nama <strong>tambahKecepatan</strong> yang isinya cuma menampikan <code>makin lajuuuu xixixi</code></p>
-<p><code>Template Program</code></p>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=font-weight:700>public</span> <span style=font-weight:700>class</span> <span style=font-weight:700>Main</span> {
-	<span style=font-weight:700>public</span> <span style=font-weight:700>static</span> <span>void</span> main(String[] args) {
-		<span style=font-style:italic>// instansiasi class Mobil
-</span><span style=font-style:italic></span>
-		<span style=font-style:italic>// set attribut harga dengan 1000000
-</span><span style=font-style:italic></span>		
-		<span style=font-style:italic>// tampilkan harga
-</span><span style=font-style:italic></span>	
-		<span style=font-style:italic>// panggil method tambahKecepatan
-</span><span style=font-style:italic></span>	}
-} 
-
-<span style=font-weight:700>class</span> <span style=font-weight:700>Mobil</span> {
-	<span style=font-style:italic>// bikin attribut harga bertipe data double
-</span><span style=font-style:italic></span>
-	<span style=font-style:italic>// bikin method tambahKecepatan
-</span><span style=font-style:italic></span>}
-
-</code></pre></div><p><code>Contoh</code><br>
-<img src=/assets/class.png alt=nim title=clas&object></p>
-<p><code>Output</code><br>
-1000000.0<br>
-makin lajuuuu xixixi</p>
-</article>
-</section>
-</div>
-<footer class=footer>
-<section class=container>
-<p>“First, solve the problem. Then, write the code”</p>
-©
-2021
-Programming Foundation
-</section>
-</footer>
-</main>
-<script src=/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
-</body>
-</html>
+<label class="menu-button float-right" for=menu-toggle><i class="fa fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/assignments/>Assignments</a></li></ul></section></nav><div class=content><section class="container page"><article><header><h1 class=title><a class=title-link href=https://programming-concept.netlify.app/assignments/tugas-6/>Tugas 6 📖 Class & Object</a></h1></header><div class="notice info"><div class=notice-title><i class="fa fa-exclamation-circle" aria-hidden=true></i>Info</div><div class=notice-content><p><code>Deadline</code><br><strong>SI</strong> Rabu, 27 Oktober 2021 Pukul 10:00 wib<br><strong>MI</strong> Jumat, 29 Oktober 2021 Pukul 10:00 wib</p><p><code>Peraturan</code><br>Nama file program <strong>Main.java</strong></p></div></div><h2 id=-class--objek>▶ Class & Objek
+<a class=heading-link href=#-class--objek><i class="fa fa-link" aria-hidden=true></i></a></h2><p><code>Deskripsi</code></p><p>Diberikan template program dibawah ini. Silahkan isi <strong>class</strong> <code>Mobil</code> dengan attribut <strong>harga</strong> yang bertipe data <strong>double</strong>. Kemudian bikin juga didalam <strong>class</strong> <code>Mobil</code> tersebut sebuah <strong>method</strong> dengan nama <strong>tambahKecepatan</strong> yang isinya cuma menampikan <code>makin lajuuuu xixixi</code></p><p><code>Template Program</code></p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=display:flex><span><span style=font-weight:700>public</span> <span style=font-weight:700>class</span> <span style=font-weight:700>Main</span> {
+</span></span><span style=display:flex><span>	<span style=font-weight:700>public</span> <span style=font-weight:700>static</span> <span>void</span> main(String[] args) {
+</span></span><span style=display:flex><span>		<span style=font-style:italic>// instansiasi class Mobil
+</span></span></span><span style=display:flex><span><span style=font-style:italic></span>
+</span></span><span style=display:flex><span>		<span style=font-style:italic>// set attribut harga dengan 1000000
+</span></span></span><span style=display:flex><span><span style=font-style:italic></span>		
+</span></span><span style=display:flex><span>		<span style=font-style:italic>// tampilkan harga
+</span></span></span><span style=display:flex><span><span style=font-style:italic></span>	
+</span></span><span style=display:flex><span>		<span style=font-style:italic>// panggil method tambahKecepatan
+</span></span></span><span style=display:flex><span><span style=font-style:italic></span>	}
+</span></span><span style=display:flex><span>} 
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=font-weight:700>class</span> <span style=font-weight:700>Mobil</span> {
+</span></span><span style=display:flex><span>	<span style=font-style:italic>// bikin attribut harga bertipe data double
+</span></span></span><span style=display:flex><span><span style=font-style:italic></span>
+</span></span><span style=display:flex><span>	<span style=font-style:italic>// bikin method tambahKecepatan
+</span></span></span><span style=display:flex><span><span style=font-style:italic></span>}
+</span></span></code></pre></div><p><code>Contoh</code><br><img src=/assets/class.png alt=nim title=clas&object></p><p><code>Output</code><br>1000000.0<br>makin lajuuuu xixixi</p></article></section></div><footer class=footer><section class=container><p>“First, solve the problem. Then, write the code”</p>©
+2021 -
+2022
+Programming Foundation</section></footer></main><script src=/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script></body></html>
