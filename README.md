@@ -1,3 +1,3 @@
-# programming concept blog
+## Deployment status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a3b57a42-745b-4bd4-981c-0af6dbd265cc/deploy-status)](https://app.netlify.com/sites/programming-concept/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6e9a42d-a93d-45bd-9b85-c152b480543d/deploy-status)](https://app.netlify.com/sites/codingtests/deploys)
