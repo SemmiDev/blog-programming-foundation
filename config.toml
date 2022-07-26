@@ -13,9 +13,9 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Programming Foundation"
-description = "programming foundation web"
-keywords = "blog,developer,programming,java"
+author = "Programming Concept"
+description = "programming concept web"
+keywords = "programming, concept, coding, java"
 info = ["happy coding"]
 avatarURL = "images/logo.svg"
 # gravatar = "sammidev4@gmail.com"
