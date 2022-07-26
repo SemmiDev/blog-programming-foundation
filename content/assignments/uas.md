@@ -53,5 +53,5 @@ s76mi|ups ga boleh angka |
 - nge-**Stuck**? googling. 👀
 
 
-`Semoga Lanceuaar dinde... xixixi`
+`Selamat mengerjakan.`
 {{< /notice >}}
