@@ -47,11 +47,10 @@ s76mi|ups ga boleh angka |
 - Method **Character.toLowerCase** : Untuk mengubah karakter menjadi huruf kecil
 
 `Tips`
-- Baca do'a _mau tidur_ terlebih dahulu :v eh
-- Jangan panixs
-- Analisa maksoed soalnya & rancang step by step pengerjaannya (dekomposisi)
-- Baru deh di kodingin
-- nge-**Stuck**? jangan mencotex yeeee 👀
+- Jangan panik.
+- Analisa maksud soal & rancang step by step pengerjaannya (dekomposisi)
+- Kemudian tuliskan code-nya
+- nge-**Stuck**? googling. 👀
 
 
 `Semoga Lanceuaar dinde... xixixi`
