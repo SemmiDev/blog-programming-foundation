@@ -8,6 +8,6 @@ author = "Hugo Authors"
 
 **Hi.. have a nice day**
 
-This website is managed by two teaching assistants, **[Sammi Aldhi Yanto](https://sammidev.netlify.app/)** & **[M.Fachren](#)**. We will distribute **[Assignments](https://programming-concept.netlify.app/tags/assignments/)** regarding **programming fondation** on this website, stay tuned ya 😊
+This website is managed by two teaching assistants, **[Sammi Aldhi Yanto](https://sammidev.netlify.app/)** & **[M.Fachren](#)** in Konsep Pemrograman course. We will distribute **[Assignments](https://programming-concept.netlify.app/tags/assignments/)** regarding **programming fondation** on this website, stay tuned ya 😊
 
 Any questions for us? contact **[Sam](https://semmidev.github.io)** or **[Faren](/)**
