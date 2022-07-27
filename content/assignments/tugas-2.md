@@ -15,6 +15,9 @@ tags = [
 **MI = Kamis, 23 September 2021 Pukul 23:59**
 {{< /notice >}}
 
+## Capaian
+SUBCPMK4. Mahasiswa mampu menjelaskan kepada rekan tentang program yang dikerjakan dengan jelas
+
 ## Peraturan
 *Nama file java yang akan di submit di **Codepost** harus* **Percabangan.java**
 
