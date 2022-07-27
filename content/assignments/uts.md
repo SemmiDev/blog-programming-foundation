@@ -14,6 +14,9 @@ tags = [
 - Alokasi waktu: 11:30 - 12:00 (30m)
 {{< /notice >}}
 
+## Capaian
+SUBCPMK1, SUBCMPK3, SUBCPMK4
+
 ## Template program
 ```java
 public class UTS {
