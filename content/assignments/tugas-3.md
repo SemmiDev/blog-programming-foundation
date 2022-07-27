@@ -17,6 +17,9 @@ tags = [
 Pembahasan [Lihat Disini](https://www.youtube.com/watch?v=D0qfQE2FFxU)
 {{< /notice >}}
 
+## Capaian
+SUBCPMK1. Mahasiswa mampu memahami konsep dasar dan paradigma pemrograman
+
 # Daftar isi
 **Klik** untuk bernavigasi
 

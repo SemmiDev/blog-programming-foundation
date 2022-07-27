@@ -14,6 +14,9 @@ tags = [
 **SI** Rabu, 20 Oktober 2021 Pukul 09:30 wib\
 **MI** Jumat, 22 Oktober 2021 Pukul 09:30 wib
 
+## Capaian
+SUBCPMK3. Mahasiswa mampu menuliskan program komputer menggunakan bahasa pemrograman
+
 `Peraturan`\
 Nama file program **Array.java**
 {{< /notice >}}
