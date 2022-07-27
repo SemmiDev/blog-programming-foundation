@@ -13,6 +13,10 @@ tags = [
 **Deadline** ⏳ **Kamis, 16 September 2021 Pukul 23:00 WIB**
 {{< /notice >}}
 
+
+## Capaian
+*SUBCPMK1. Mahasiswa mampu memahami konsep dasar dan paradigma pemrograman*
+
 ## Peraturan 
 *Nama file yang di submit di **Codepost** harus* **VariableTipeData.java**
 
